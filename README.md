@@ -25,14 +25,14 @@ Follow these steps to build and install the package:
 1. In the terminal, navigate to the root directory of your project (where `setup.py` is located).
     ```bash
    cd EVERSE-SRSE-Interview-Task
-2. Build the package: 
-```bash
+2. Build the package.
+    ```bash
    python setup.py sdist bdist_wheel
-4. Install the package locally:
-```bash
+4. Install the package locally.
+    ```bash
    pip install .
-### 5. Usage:
-Once installed, you can use the following command from the command line to execute the script:
+### 5. Usage
+Once installed, you can use the following command from the command line to execute the script.
 ```bash
  ontology-lookup <ontology_id>
 
