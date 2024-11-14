@@ -1,23 +1,35 @@
-# Set up your project with the following directory structure:
-EVERSE-SRSE-Interview-Task/                          # Source directory
-├── task1/
-│   ├── __init__.py
-│   ├── ontology_lookup.py                           # Main script
-├── setup.py                                         # Package metadata
-├── README.md
-├── requirements.txt                                # Python dependencies
+# EVERSE-SRSE-Interview-Task
 
-1. Create the setup.py File : This file defines the package and makes it executable from the command line.
+This project is structured to create a Python package for ontology lookup. The package will allow you to run a command-line script to query ontologies using an ID.
 
-2. Create ontology_lookup.py. # Main script
+## Project Directory Structure
 
-3. Create a requirements.txt file include any dependencies in this file (in this case, just requests).
 
-4. Build and Install the Package in the terminal, navigate to the root directory of your project (where setup.py is located) and run:
-In the terminal, navigate to the root directory of your project (where setup.py is located) and run:
-Build the package
-python setup.py sdist bdist_wheel
-Install the package locally
-pip install.
+### 1. Create the `setup.py` File
 
-Once installed, you can use the command ontology-lookup <ontology_id> from the command line to execute the code.
+The `setup.py` file defines the package metadata and configuration, making it executable from the command line.
+
+### 2. Create `ontology_lookup.py` in `task1/`
+
+This is the main script that will handle the ontology lookup process.
+
+### 3. Create a `requirements.txt` File
+
+Include any dependencies in this file. For example:
+
+
+### 4. Build and Install the Package
+
+Follow these steps to build and install the package:
+
+1. In the terminal, navigate to the root directory of your project (where `setup.py` is located).
+    ```bash
+   cd EVERSE-SRSE-Interview-Task
+2. Build the package: 
+   python setup.py sdist bdist_wheel
+3. Install the package locally:
+   pip install .
+### 5. Usage:
+Once installed, you can use the following command from the command line to execute the script:
+   ontology-lookup <ontology_id>
+
