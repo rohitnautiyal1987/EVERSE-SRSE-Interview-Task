@@ -14,10 +14,9 @@ EVERSE-SRSE-Interview-Task/                          # Source directory
 3. Create a requirements.txt file include any dependencies in this file (in this case, just requests).
 
 4. Build and Install the Package in the terminal, navigate to the root directory of your project (where setup.py is located) and run:
-# In the terminal, navigate to the root directory of your project (where setup.py is located) and run:
-# Build the package
+In the terminal, navigate to the root directory of your project (where setup.py is located) and run:
+Build the package
 python setup.py sdist bdist_wheel
-# Install the package locally
+Install the package locally
 pip install .
-
-# Once installed, you can use the command ontology-lookup <ontology_id> from the command line to execute the code.
+Once installed, you can use the command ontology-lookup <ontology_id> from the command line to execute the code.
