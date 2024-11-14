@@ -18,5 +18,6 @@ In the terminal, navigate to the root directory of your project (where setup.py 
 Build the package
 python setup.py sdist bdist_wheel
 Install the package locally
-pip install .
+pip install.
+
 Once installed, you can use the command ontology-lookup <ontology_id> from the command line to execute the code.
