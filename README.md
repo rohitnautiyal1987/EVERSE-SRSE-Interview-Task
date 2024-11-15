@@ -3,7 +3,15 @@
 This project is structured to create a Python package for ontology lookup. The package will allow you to run a command-line script to query ontologies using an ID.
 
 ## Project Directory Structure
-
+```
+EVERSE-SRSE-Interview-Task/    
+|-- task1/
+|   |-- __init__.py
+|   `-- ontology_lookup.py
+|-- setup.py
+|-- README.md
+`-- requirements.txt
+```
 
 ### 1. Create the `setup.py` File
 
