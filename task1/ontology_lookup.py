@@ -2,7 +2,7 @@ import requests
 import sys
 
 def fetch_ontology_details(ontology_id):
-    # (The existing fetch_ontology_details code here)
+    # The existing fetch_ontology_details code here
     url = f"https://www.ebi.ac.uk/ols/api/ontologies/{ontology_id}"
     print(f"Fetching details for ontology ID: {ontology_id}")  # Debug
     #print(f"Fetching details for ontology ID:")  # Debug
@@ -34,7 +34,6 @@ def fetch_ontology_details(ontology_id):
     pass
 
 def print_ontology_info(ontology_id):
-    # (The existing print_ontology_info code here)
     details = fetch_ontology_details(ontology_id)
 
     if "Error" in details:
