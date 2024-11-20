@@ -1,4 +1,5 @@
 # EVERSE-SRSE-Interview-Task
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 This project is structured to create a Python package for ontology lookup. The package will allow you to run a command-line script to query ontologies using an ID.
 
